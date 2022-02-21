@@ -26,7 +26,5 @@ export default {
     <SubmitButton />
     <TableList />
   </main>
-  <footer>
-    <FooterBar />
-  </footer>
+  <FooterBar />
 </template>

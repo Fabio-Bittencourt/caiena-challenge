@@ -10,12 +10,15 @@ export default {
 
 <template>
   <div>
-    <label> INPUT </label>
+    <label>
+      <span class="text-xs">Input</span>
+    </label>
     <input
-      class="border-solid border-2 border-red-500"
+      class="w-full h-10 rounded-lg bg-gray-100 px-3"
       type="text"
       v-model="value"
     />
+    <span class="text-xs text-red-600">Eu sou uma msg de erro</span>
   </div>
 </template>
 
