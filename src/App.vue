@@ -1,30 +1,25 @@
 <script>
-import InputText from "./components/InputText.vue";
-import SubmitButton from "./components/SubmitButton.vue";
 import MenuBar from "./components/MenuBar.vue";
 import FooterBar from "./components/FooterBar.vue";
-import TableList from './components/TableList.vue'
+import SearchPage from "./page/SearchPage.vue";
 
 export default {
   components: {
-    InputText,
-    SubmitButton,
     MenuBar,
     FooterBar,
-    TableList,
+    SearchPage,
   },
 };
 </script>
 
 <template>
-  <header>
-    <MenuBar />
-  </header>
-  <main>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <InputText />
-    <SubmitButton />
-    <TableList />
-  </main>
-  <FooterBar />
+  <div class="flex flex-col h-screen">
+    <header class="w-full">
+      <MenuBar />
+    </header>
+    <main class="bg-slate-50 flex-grow">
+      <SearchPage />
+    </main>
+    <FooterBar />
+  </div>
 </template>

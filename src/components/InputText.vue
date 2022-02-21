@@ -10,9 +10,6 @@ export default {
 
 <template>
   <div>
-    <label>
-      <span class="text-xs">Input</span>
-    </label>
     <input
       class="w-full h-10 rounded-lg bg-gray-100 px-3"
       type="text"
