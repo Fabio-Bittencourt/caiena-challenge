@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto my-20">
     <div class="flex-row w-full p-30">
       <TableList />
     </div>
