@@ -4,9 +4,9 @@ import FooterBar from "./components/FooterBar.vue";
 import SearchPage from "./page/SearchPage.vue";
 
 //TODO Generate keys for access the github api
-//TODO Install vuex to handle stores and actions
 //TODO Services to handle the search of users
 //TODO Pagination allowing to change between 20, 30, 40, 50, 60, 100
+//TODO Searching by words on table
 //TODO Unit Tests
 //TODO Inetgration Tests
 //TODO Components Tests
