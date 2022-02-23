@@ -4,10 +4,10 @@ This project was build to be part of the hiring process of [Caiena Technology an
 
 ## Tooling
 
-Framework: Vue 3
-CSS Framework: [TailwindCSS](https://tailwindcss.com/)
-Stores: Vuex
-Http requests: Axios
+- Framework: Vue 3
+- CSS Framework: [TailwindCSS](https://tailwindcss.com/)
+- Stores: Vuex
+- Http requests: Axios
 
 ## Recommended IDE Setup
 
