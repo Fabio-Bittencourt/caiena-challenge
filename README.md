@@ -1,6 +1,13 @@
 # caiena-challenge
+## Description
+This project was build to be part of the hiring process of [Caiena Technology and Design](https://www.caiena.net/), all the libraries used in this project are open source. The main concept of the layout design are based on the colors of Caiena.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Tooling
+
+Framework: Vue 3
+CSS Framework: [TailwindCSS](https://tailwindcss.com/)
+Stores: Vuex
+Http requests: Axios
 
 ## Recommended IDE Setup
 
