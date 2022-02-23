@@ -2,8 +2,8 @@ import github from "@/services/github.api";
 
 const actions = {
   getUsersBy: async (context, filter) => {
-    const res = await github.searchUsers(filter);
-    context.commit("users", res.data);
+    const resp = await github.searchUsers(filter);
+    context.commit("setUsers", resp);
   },
 };
 
