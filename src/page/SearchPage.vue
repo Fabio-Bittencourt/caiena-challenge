@@ -1,17 +1,17 @@
 <script>
-import TableList from "../components/TableList.vue";
+import UserCard from "../components/UserCard.vue";
 
 export default {
   components: {
-    TableList,
+    UserCard,
   },
 };
 </script>
 
 <template>
   <div class="container mx-auto my-20">
-    <div class="flex-row w-full p-30">
-      <TableList />
+    <div class="p-30">
+      <UserCard />
     </div>
   </div>
 </template>
