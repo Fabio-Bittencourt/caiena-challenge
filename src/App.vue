@@ -1,7 +1,7 @@
 <script>
-import MenuBar from "./components/MenuBar.vue";
-import FooterBar from "./components/FooterBar.vue";
-import SearchPage from "./page/SearchPage.vue";
+import MenuBar from "@/components/MenuBar.vue";
+import FooterBar from "@/components/FooterBar.vue";
+import SearchPage from "@/page/SearchPage.vue";
 
 //TODO Unit Tests
 //TODO Inetgration Tests

@@ -28,22 +28,22 @@ export default {
 </script>
 
 <template>
-  <div class="flex content-start">
+  <div class="flex w-full">
     <form @submit.prevent="onSubmit({ search, paginationSelected })">
-      <div class="w-full flex-grow">
+      <div class="flex-shrink-0">
         <input
           type="text"
           class="h-10 px-3 bg-gray-100 rounded-lg"
           v-model="search"
         />
-        <select v-model="paginationSelected">
+        <select class="h-10 mx-2.5" v-model="paginationSelected">
           <option disabled value="">Paginação</option>
           <option v-for="(item, index) in paginationArr" :key="index">
             {{ item }}
           </option>
         </select>
       </div>
-      <div class="w-full">
+      <div class="w-full mt-5">
         <SubmitButton />
       </div>
     </form>

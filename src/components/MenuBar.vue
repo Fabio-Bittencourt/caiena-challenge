@@ -12,15 +12,15 @@ export default {
   <nav class="relative bg-white">
     <div class="w-full sm:px-6">
       <div
-        class="flex border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10 justify-end items-center"
+        class="py-6 border-b-2 border-gray-100 md:justify-between md:items-center md:flex"
       >
-        <div class="flex-col">
-          <img class="h-16 w-auto sm:h-10" src="../assets/logo.png" />
+        <div class="flex-grow">
+          <img class="w-auto h-16 sm:h-10" src="../assets/logo.png" />
         </div>
-        <div class="flex-col flex-grow items-end">
+        <div class="flex-col w-40">
           <p>Dev Challenge</p>
         </div>
-        <div class="flex-col">
+        <div class="flex-col items-end w-1/4">
           <SearchForm />
         </div>
       </div>
