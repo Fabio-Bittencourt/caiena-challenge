@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/Fabio-Bittencourt/caiena-challenge/compare/v0.0.1...v0.0.2) (2022-02-26)
+
+
+### Features
+
+* **app, menubar, searchform, usercard, searchpage:** changes on layout ([49d5900](https://github.com/Fabio-Bittencourt/caiena-challenge/commit/49d59002fff83c2a02ba3b42f3cf97360bfc767e))
+
 ### 0.0.1 (2022-02-23)
 
 
